@@ -3,6 +3,7 @@
 This is the README file for the "Synapse Model" associated with the paper:
 
 Brian Lloyd, Ying Han, Rebecca Roth, Bo Zhang, Jason Aoto
+
 Neurexin-3 subsynaptic densities are spatially distinct from Neurexin-1 and essential for excitatory synapse nanoscale organization in the hippocampus
  
 
