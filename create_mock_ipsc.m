@@ -120,4 +120,7 @@ end
 %% Use GRAMM package for plotting IPSC vaues
 clear g
 
-g(1,1) = gramm('x', params.time_sec, 'y', )
+g(1,1) = gramm('x', params.time_sec', 'y', IPSC.(model_names{2}).I');
+g(1,1).stat_summary('type','std');
+
+g.draw();
