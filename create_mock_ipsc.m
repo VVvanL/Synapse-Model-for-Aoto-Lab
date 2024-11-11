@@ -115,3 +115,9 @@ for f = 1:model_n
     title(title_str, 'Interpreter','none')
 
 end
+
+
+%% Use GRAMM package for plotting IPSC vaues
+clear g
+
+g(1,1) = gramm('x', params.time_sec, 'y', )
