@@ -74,14 +74,14 @@ end
 %% Plotting functions (optional call)
 % TODO: replace shadedErrorBar function with more flexible plotting scheme
 figure;
-t = tiledlayout(1,2); 
+t = tiledlayout(2,2); 
 for f = 1:model_n
     title_str = model_names{f};
-    nexttile; hold on; grid on
+    nexttile; hold on; % grid on
 
     shadedErrorBar(params.time_sec,mean(IPSC.(title_str).I_neg, 2),std(IPSC.(title_str).I_neg, 0, 2),...
         'lineprops','-k','transparent',true);
-    ylim([-17 0]); 
+    ylim([-30 0]); 
     title(title_str, 'Interpreter','none')
 
 end
