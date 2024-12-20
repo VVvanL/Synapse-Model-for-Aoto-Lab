@@ -74,7 +74,7 @@ end
 %% Plotting functions (optional call)
 % TODO: replace shadedErrorBar function with more flexible plotting scheme
 figure;
-t = tiledlayout(2,3); 
+t = tiledlayout(2,2); 
 for f = 1:model_n
     title_str = model_names{f};
     nexttile; hold on; % grid on
